@@ -13,7 +13,7 @@ export function CarouselTransition() {
                 <img
                     src={Residential}
                     alt="Residential Projects"
-                    className="h-1/2 md:h-3/4 lg:h-3/4 w-3/4 mx-auto object-cover"
+                    className="h-1/2 md:h-3/4 lg:h-3/4 w-full md:w-3/4 lg:w-3/4 mx-auto object-cover"
                 />
                 <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
                     <div className="w-3/4 text-center md:w-2/4 top-0 bottom-0 mx-auto my-auto">
@@ -31,7 +31,7 @@ export function CarouselTransition() {
                 <img
                     src={Commercial}
                     alt="Commercial Projects"
-                    className="h-1/2 md:h-3/4 lg:h-3/4 w-3/4 mx-auto object-cover"
+                    className="h-1/2 md:h-3/4 lg:h-3/4 w-full md:w-3/4 lg:w-3/4 mx-auto object-cover"
                 />
                 <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
                     <div className="w-3/4 text-center md:w-2/4 top-0 bottom-0 mx-auto my-auto">
@@ -49,7 +49,7 @@ export function CarouselTransition() {
                 <img
                     src={Industrial}
                     alt="Industrial Projects"
-                    className="h-1/2 md:h-3/4 lg:h-3/4 w-3/4 mx-auto object-cover"
+                    className="h-1/2 md:h-3/4 lg:h-3/4 w-full md:w-3/4 lg:w-3/4 mx-auto object-cover"
                 />
                 <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
                     <div className="w-3/4 text-center md:w-2/4 top-0 bottom-0 mx-auto my-auto">
@@ -67,7 +67,7 @@ export function CarouselTransition() {
                 <img
                     src={PowerTransmission}
                     alt="Power Transmission"
-                    className="h-1/2 md:h-3/4 lg:h-3/4 w-3/4 mx-auto object-cover"
+                    className="h-1/2 md:h-3/4 lg:h-3/4 w-full md:w-3/4 lg:w-3/4 mx-auto object-cover"
                 />
                 <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
                     <div className="w-3/4 text-center md:w-2/4 top-0 bottom-0 mx-auto my-auto">
@@ -85,7 +85,7 @@ export function CarouselTransition() {
                 <img
                     src={Solar}
                     alt="Solar"
-                    className="h-1/2 md:h-3/4 lg:h-3/4 w-3/4 mx-auto object-cover"
+                    className="h-1/2 md:h-3/4 lg:h-3/4 w-full md:w-3/4 lg:w-3/4 mx-auto object-cover"
                 />
                 <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
                     <div className="w-3/4 text-center md:w-2/4 top-0 bottom-0 mx-auto my-auto">
