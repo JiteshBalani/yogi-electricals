@@ -8,41 +8,50 @@ import {
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 
+
 function NavList() {
   return (
     <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-        <a href="/"><Typography
+      <Link to='/'>
+        <Typography
           as="li"
           variant="h6"
           color="white"
           className="p-1 font-semibold"
         >
           Home
-        </Typography></a>
-      <Typography
-        as="li"
-        variant="h6"
-        color="white"
-        className="p-1 font-semibold"
-      >
+        </Typography>
+      </Link>
+      <Link to='/services'>
+        <Typography
+          as="li"
+          variant="h6"
+          color="white"
+          className="p-1 font-semibold"
+        >
           Services
-      </Typography>
-      <Typography
-        as="li"
-        variant="h6"
-        color="white"
-        className="p-1 font-semibold"
-      >
+        </Typography>
+      </Link>
+      <Link to='/about'>
+        <Typography
+          as="li"
+          variant="h6"
+          color="white"
+          className="p-1 font-semibold"
+        >
           About
-      </Typography>
-      <Typography
-        as="li"
-        variant="h6"
-        color="white"
-        className="p-1 font-semibold"
-      >
+        </Typography>
+      </Link>
+      <Link to='/contact'>
+        <Typography
+          as="li"
+          variant="h6"
+          color="white"
+          className="p-1 font-semibold"
+        >
           Contact
-      </Typography>
+        </Typography>
+      </Link>
     </ul>
   );
 }
@@ -64,14 +73,13 @@ export function NavbarSimple() {
   return (
     <Navbar className="mx-auto max-w-screen-xl px-6 py-3 bg-black mb-5">
       <div className="flex items-center justify-between text-white">
-        <Typography
-          as="a"
-          href="#"
+        <Link to="/"><Typography
+          as="h1"
           variant="h5"
           className="mr-4 cursor-pointer py-1.5"
         >
           Yogi Electricals
-        </Typography>
+        </Typography></Link>
         <div className="hidden lg:block">
           <NavList />
         </div>

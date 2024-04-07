@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className='bg-black'>
-        <Homepage/>
+        {/* <Homepage/> */}
     </div>
   )
 }

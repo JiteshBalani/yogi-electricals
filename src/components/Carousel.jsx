@@ -81,7 +81,7 @@ export function CarouselTransition() {
                     </div>
                 </div>
             </div>
-            <div className="relative h-full w-full">
+            <div className="relative h-fit w-full">
                 <img
                     src={Solar}
                     alt="Solar"
