@@ -11,14 +11,14 @@ import { Link } from "react-router-dom";
 function NavList() {
   return (
     <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-        <Typography
+        <a href="/"><Typography
           as="li"
           variant="h6"
           color="white"
           className="p-1 font-semibold"
         >
           Home
-        </Typography>
+        </Typography></a>
       <Typography
         as="li"
         variant="h6"
