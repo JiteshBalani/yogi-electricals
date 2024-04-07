@@ -1,7 +1,7 @@
 
 const Services = () => {
     return (
-        <div className='mx-auto max-w-screen-xl md:px-6 lg:px-6 py-3 bg-black text-white mb-5'>
+        <div id="services" className='mx-auto max-w-screen-xl md:px-6 lg:px-6 py-3 bg-black text-white mb-5'>
             <h1 className='text-2xl md:text-3xl lg:text-4xl text-center py-5 border-b-2 font-semibold'>Services</h1>
             <div className='p-10 flex flex-wrap space-y-10'>
                 <div className='bg-white bg-opacity-10 p-5 rounded-xl  '>

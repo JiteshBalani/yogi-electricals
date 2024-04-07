@@ -9,7 +9,7 @@ import { FooterWithSocialLinks } from '../components/Footer'
 
 const Homepage = () => {
     return (
-        <div className='bg-black py-4'>
+        <div id='home' className='bg-black py-4'>
           <NavbarSimple />
           <CarouselTransition/>
           <Services/>

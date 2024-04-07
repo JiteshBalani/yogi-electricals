@@ -6,52 +6,43 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { Link } from "react-router-dom";
 
 
 function NavList() {
   return (
     <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      <Link to='/'>
-        <Typography
-          as="li"
-          variant="h6"
-          color="white"
-          className="p-1 font-semibold"
-        >
-          Home
-        </Typography>
-      </Link>
-      <Link to='/services'>
-        <Typography
-          as="li"
-          variant="h6"
-          color="white"
-          className="p-1 font-semibold"
-        >
-          Services
-        </Typography>
-      </Link>
-      <Link to='/about'>
-        <Typography
-          as="li"
-          variant="h6"
-          color="white"
-          className="p-1 font-semibold"
-        >
-          About
-        </Typography>
-      </Link>
-      <Link to='/contact'>
-        <Typography
-          as="li"
-          variant="h6"
-          color="white"
-          className="p-1 font-semibold"
-        >
-          Contact
-        </Typography>
-      </Link>
+      <a href="#home"><Typography
+        as="li"
+        variant="h6"
+        color="white"
+        className="p-1 font-semibold"
+      >
+        Home
+      </Typography></a>
+      <a href="#services"><Typography
+        as="li"
+        variant="h6"
+        color="white"
+        className="p-1 font-semibold"
+      >
+        Services
+      </Typography></a>
+      <a href="#about"><Typography
+        as="li"
+        variant="h6"
+        color="white"
+        className="p-1 font-semibold"
+      >
+        About
+      </Typography></a>
+      <a href="#contact"><Typography
+        as="li"
+        variant="h6"
+        color="white"
+        className="p-1 font-semibold"
+      >
+        Contact
+      </Typography></a>
     </ul>
   );
 }
@@ -71,15 +62,15 @@ export function NavbarSimple() {
   }, []);
 
   return (
-    <Navbar className="mx-auto max-w-screen-xl px-6 py-3 bg-black mb-5">
+    <Navbar className="mx-auto max-w-screen-xl px-6 py-3 bg-black bg-opacity-40 mb-5 fixed left-0 right-0 z-50">
       <div className="flex items-center justify-between text-white">
-        <Link to="/"><Typography
+        <a href="#home"><Typography
           as="h1"
           variant="h5"
           className="mr-4 cursor-pointer py-1.5"
         >
           Yogi Electricals
-        </Typography></Link>
+        </Typography></a>
         <div className="hidden lg:block">
           <NavList />
         </div>
