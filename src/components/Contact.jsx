@@ -25,10 +25,10 @@ const Contact = () => {
                         <MarkEmailUnreadIcon style={{ color: 'blue', fontSize: '4rem' }} />
                         <p className='text-lg md:text-xl lg:text-2xl text-center py-5'>Email: abc@example.com</p>
                     </div>
-                    <div className='flex items-center justify-center space-x-2'>
+                    {/* <div className='flex items-center justify-center space-x-2'>
                         <ShareLocationIcon style={{ color: 'red', fontSize: '4rem' }} />
                         <p className='text-lg md:text-xl lg:text-2xl text-center py-5'>Kalyan(W), Maharashtra, IN</p>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
