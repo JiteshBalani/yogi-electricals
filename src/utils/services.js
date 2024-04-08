@@ -1,3 +1,5 @@
+import Panel from '../assets/Services/panel-breakers.jpg';
+
 export const services = [
     {
         "title" : "Solar Panel Installation",
@@ -16,7 +18,7 @@ export const services = [
     },
     {
         "title" : "HT/LT panels and breakers",
-        "image" :"http://pratibhaelectricals.in/images/services/panel-breakers.jpg",
+        "image" : Panel,
         "description":"Unlock the potential of your electrical systems with our annual maintenance contract for HT/LT panels & breakers. We specialize in ensuring the uninterrupted operation of your electrical infrastructure, guaranteeing efficiency and longevity.",
     },
     {

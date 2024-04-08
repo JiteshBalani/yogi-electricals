@@ -6,7 +6,7 @@ import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 
 const Contact = () => {
     return (
-        <div id='contact' className='mx-auto max-w-screen-xl px-6 py-3 bg-black text-white mb-5'>
+        <div id='contact' className='mx-auto max-w-screen-xl px-6 py-3 bg-transparent text-white mb-5'>
             <h1 className='text-2xl md:text-3xl lg:text-4xl text-center py-5 border-b-2 font-semibold mb-5'>Contact</h1>
 
             <div className='flex flex-wrap justify-center md:justify-around lg:justify-around items-center'>

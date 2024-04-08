@@ -1,7 +1,7 @@
 
 const About = () => {
     return (
-        <div id="about" className='mx-auto max-w-screen-xl px-6 py-3 bg-black text-white mb-5'>
+        <div id="about" className='mx-auto max-w-screen-xl px-6 py-3 bg-transparent text-white mb-5'>
             <h1 className='text-2xl md:text-3xl lg:text-4xl text-center py-5 border-b-2 font-semibold'>About Us</h1>
             <p className='text-lg md:text-xl lg:text-2xl text-center md:text-left lg:text-left my-5 text-wrap py-5'>
                 We take the pleasure in introducing ourselves as one of the leading Electrical Contractors in Pune's Industrial belt.
