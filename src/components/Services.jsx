@@ -1,7 +1,9 @@
 import { services } from "../utils/services";
 import ReadMore from "../utils/ReadMore";
+import { useMediaQuery } from 'react-responsive';
 
 const Services = () => {
+    const isSmallScreen = useMediaQuery({ maxWidth: 768 });
 
     return (
         <div id="services" className='mx-auto max-w-screen-xl md:px-6 lg:px-6 py-3 bg-transparent text-white mb-5'>
@@ -15,14 +17,14 @@ const Services = () => {
                             <img src={service.image} alt={service.title} className='w-full md:w-60 lg:w-60 h-60 border-2 mx-auto md:mr-5 lg:mr-5'></img>
 
                             <p className='text-lg md:text-xl lg:text-2xl my-5 text-wrap py-5 text-center md:text-left lg:text-left'>
-                                <ReadMore>{service.description}</ReadMore>
+                                {isSmallScreen ? <ReadMore>{service.description}</ReadMore> : service.description}
                             </p>
 
                         </div>
                     </div>
                 ))}
 
-                <p className="text-lg md:text-xl lg:text-2xl my-5 text-wrap py-5 text-center md:text-left lg:text-left italic text-purple-400 font-semibold">Have other needs or questions? Reach out to us - we're ready to assist!....</p>
+                <p className="text-lg md:text-xl lg:text-2xl mt-2 mb-5 text-wrap py-5 text-center md:text-left lg:text-left italic text-purple-400 font-semibold">Have other needs or questions? Reach out to us - we're ready to assist!....</p>
 
             </div>
         </div>
