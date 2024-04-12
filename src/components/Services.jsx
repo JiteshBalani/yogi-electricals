@@ -3,7 +3,7 @@ import ReadMore from "../utils/ReadMore";
 import { useMediaQuery } from 'react-responsive';
 
 const Services = () => {
-    const isSmallScreen = useMediaQuery({ maxWidth: 768 });
+    const isSmallScreen = useMediaQuery({ maxWidth: 968 });
 
     return (
         <div id="services" className='mx-auto max-w-screen-xl md:px-6 lg:px-6 py-3 bg-transparent text-white mb-5'>
